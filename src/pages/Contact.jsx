@@ -11,12 +11,14 @@
 import React from 'react';
 import Swal from 'sweetalert2';
 
+const contactkey = import.meta.env.VITE_API_KEY;
+
 const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "63625efd-3027-4727-a910-e649ca2b8d43");
+    formData.append("access_key", contactkey);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -88,4 +90,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 

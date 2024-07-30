@@ -13,6 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, EffectCoverflow } from 'swiper/modules';
 import SwiperCore from 'swiper/core';
 
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

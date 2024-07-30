@@ -13,6 +13,7 @@
     "@react-spring/three": "^9.7.4",
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
+    "dotenv": "^16.4.5",
     "framer-motion": "^11.3.18",
     "import": "^0.0.6",
     "ionicons": "^7.4.0",
