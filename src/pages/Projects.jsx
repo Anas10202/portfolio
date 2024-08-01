@@ -1,13 +1,3 @@
-// import React from 'react'
-
-// function Projects() {
-//   return (
-//     <div>Projects</div>
-//   )
-// }
-
-// export default Projects
-
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, EffectCoverflow } from 'swiper/modules';
